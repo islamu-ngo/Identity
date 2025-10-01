@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/API/">
+    <Project Path="Identity.API/Identity.API.csproj" />
+  </Folder>
+  <Project Path="Identity.AppHost/Identity.AppHost.csproj" Id="e4e90cb9-5a45-493f-9f94-8a9a4c31b102" />
+  <Project Path="Identity.ServiceDefaults/Identity.ServiceDefaults.csproj" />
+</Solution>

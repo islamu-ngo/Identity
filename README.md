@@ -1,6 +1,6 @@
 # ISLAMU Identity
 
-# Standard Based Centralized Authentication Solution
+# Centralized Authentication for ISLAMU Solutions
 
 This is the repository for the ISLAMU Identity Solution!
 
@@ -29,10 +29,12 @@ ISLAMU Identity is an ambitious Identity Provider that Allows Muslims to have 1 
 
 **🌐 [Documentation]() (TODO)**
 
-🎨 Beautiful User Interface (UI) built with MudBlazor for the best User Experience (UX), Dark/White Themes. (TODO)
 💻 Fully Free & Open Source.
+
 🌎 Multiple Language Support (TODO English, French and Arabic).
+
 📖 Rich documentation. (TODO).
+
 🚀 Build in Public! (TODO Access Plane Kanban, Plane wiki and more coming soon).
 
 ## 📊 Repo Stats
@@ -50,12 +52,12 @@ I am deeply grateful to all our amazing contributors!
 
 ## Contributing
 
-- Submit a bug report, send feedback and trough GitHub's Issues
+- Submit a bug report, send feedback trough GitHub's Issues
 - Open a Pull Request
 
 ## Acknowledgement
 
-- [OpenAuth](https://openauth.js.org/): Universal, standards-based auth provider.
+- [Keycloack](https://github.com/keycloak/keycloak): Universal Open Source Identity and Access Management
 - [MudBlazor](https://www.mudblazor.com/): A Blazor UI library that simplifies the creation of Beautifull Websites/webapps.
 
 ## Contact
