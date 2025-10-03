@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SLPkx6oqLBk=",
+  "dgSpecHash": "YIOLuiwG4SU=",
   "success": true,
   "projectFilePath": "C:\\ISLAMU\\GitHub\\Identity\\Identity.AppHost\\Identity.AppHost.csproj",
   "expectedPackageFiles": [
@@ -72,6 +72,7 @@
     "C:\\Users\\AM5\\.nuget\\packages\\polly.core\\8.6.3\\polly.core.8.6.3.nupkg.sha512",
     "C:\\Users\\AM5\\.nuget\\packages\\rabbitmq.client\\7.1.2\\rabbitmq.client.7.1.2.nupkg.sha512",
     "C:\\Users\\AM5\\.nuget\\packages\\semver\\3.0.0\\semver.3.0.0.nupkg.sha512",
+    "C:\\Users\\AM5\\.nuget\\packages\\sonaranalyzer.csharp\\10.15.0.120848\\sonaranalyzer.csharp.10.15.0.120848.nupkg.sha512",
     "C:\\Users\\AM5\\.nuget\\packages\\stackexchange.redis\\2.9.11\\stackexchange.redis.2.9.11.nupkg.sha512",
     "C:\\Users\\AM5\\.nuget\\packages\\streamjsonrpc\\2.22.11\\streamjsonrpc.2.22.11.nupkg.sha512",
     "C:\\Users\\AM5\\.nuget\\packages\\system.diagnostics.eventlog\\9.0.9\\system.diagnostics.eventlog.9.0.9.nupkg.sha512",

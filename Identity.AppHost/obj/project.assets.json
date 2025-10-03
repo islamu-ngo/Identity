@@ -1452,6 +1452,9 @@
           }
         }
       },
+      "SonarAnalyzer.CSharp/10.15.0.120848": {
+        "type": "package"
+      },
       "StackExchange.Redis/2.9.11": {
         "type": "package",
         "dependencies": {
@@ -3534,6 +3537,24 @@
         "semver.nuspec"
       ]
     },
+    "SonarAnalyzer.CSharp/10.15.0.120848": {
+      "sha512": "1hM3HVRl5jdC/ZBDu+G7CCYLXRGe/QaP01Zy+c9ETPhY7lWD8g8HiefY6sGaH0T3CJ4wAy0/waGgQTh0TYy0oQ==",
+      "type": "package",
+      "path": "sonaranalyzer.csharp/10.15.0.120848",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "analyzers/SonarAnalyzer.CSharp.dll",
+        "images/sonarsource_64.png",
+        "license/THIRD-PARTY-NOTICES.txt",
+        "sonaranalyzer.csharp.10.15.0.120848.nupkg.sha512",
+        "sonaranalyzer.csharp.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
     "StackExchange.Redis/2.9.11": {
       "sha512": "3J0qv0qFhMeCe2ZApnbbC6ZgNs/iTdmqvFyN/tIw5A0CTlABF1BJh86D3Cf03V9FoftvqeKeAnOkJAHTHpm1xA==",
       "type": "package",
@@ -3741,7 +3762,8 @@
       "Aspire.Hosting.Orchestration.win-x64 >= 9.5.0",
       "Aspire.Hosting.PostgreSQL >= 9.5.0",
       "Aspire.Hosting.RabbitMQ >= 9.5.0",
-      "Aspire.Hosting.Redis >= 9.5.0"
+      "Aspire.Hosting.Redis >= 9.5.0",
+      "SonarAnalyzer.CSharp >= 10.15.0.120848"
     ]
   },
   "packageFolders": {
@@ -3820,6 +3842,12 @@
           "Aspire.Hosting.Redis": {
             "target": "Package",
             "version": "[9.5.0, )"
+          },
+          "SonarAnalyzer.CSharp": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[10.15.0.120848, )"
           }
         },
         "imports": [

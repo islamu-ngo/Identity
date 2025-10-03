@@ -19,6 +19,7 @@
     <Import Project="$(NuGetPackageRoot)aspire.dashboard.sdk.win-x64\9.5.0\buildTransitive\Aspire.Dashboard.Sdk.win-x64.props" Condition="Exists('$(NuGetPackageRoot)aspire.dashboard.sdk.win-x64\9.5.0\buildTransitive\Aspire.Dashboard.Sdk.win-x64.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgSonarAnalyzer_CSharp Condition=" '$(PkgSonarAnalyzer_CSharp)' == '' ">C:\Users\AM5\.nuget\packages\sonaranalyzer.csharp\10.15.0.120848</PkgSonarAnalyzer_CSharp>
     <PkgGrpc_Tools Condition=" '$(PkgGrpc_Tools)' == '' ">C:\Users\AM5\.nuget\packages\grpc.tools\2.72.0</PkgGrpc_Tools>
     <PkgAspire_Hosting_Orchestration_win-x64 Condition=" '$(PkgAspire_Hosting_Orchestration_win-x64)' == '' ">C:\Users\AM5\.nuget\packages\aspire.hosting.orchestration.win-x64\9.5.0</PkgAspire_Hosting_Orchestration_win-x64>
     <PkgAspire_Dashboard_Sdk_win-x64 Condition=" '$(PkgAspire_Dashboard_Sdk_win-x64)' == '' ">C:\Users\AM5\.nuget\packages\aspire.dashboard.sdk.win-x64\9.5.0</PkgAspire_Dashboard_Sdk_win-x64>
