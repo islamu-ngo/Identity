@@ -4,6 +4,8 @@
 
 This is the repository for the ISLAMU Identity Solution!
 
+Give it a star ⭐️
+
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/islamu-ngo/Identity/build.yml?branch=main&logo=github&style=flat-square)
 [![Codecov](https://img.shields.io/codecov/c/github/islamu-ngo/Identity)](https://app.codecov.io/github/islamu-ngo/Identity)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=islamu-ngo_Identity&metric=alert_status)](https://sonarcloud.io/summary/overall?id=islamu-ngo_Identity)
@@ -35,14 +37,17 @@ ISLAMU Identity is an ambitious Identity Provider that Allows Muslims to have 1 
 
 📖 Rich documentation. (TODO).
 
-🚀 Build in Public! (TODO Access Plane Kanban, Plane wiki and more coming soon).
+🚀 Build in Public! (Roadmap, Discord, Notes & more coming soon).
+
+## Roadmap
+
+[Plane Publish Kanban View](https://sites.plane.so/issues/169bb42f207449248daf08af7cc89785/?board=kanban): All the Work Items, go vote, comment and more!
 
 ## 📊 Repo Stats
 
-
 ![Alt](https://repobeats.axiom.co/api/embed/6c58de926f3b23953f3d15dbdb3675cfdafca927.svg "Repobeats analytics image")
 
-### Contributors:
+## Contributors:
  
 I am deeply grateful to all our amazing contributors!
  
@@ -59,6 +64,11 @@ I am deeply grateful to all our amazing contributors!
 
 - [Keycloack](https://github.com/keycloak/keycloak): Universal Open Source Identity and Access Management
 - [MudBlazor](https://www.mudblazor.com/): A Blazor UI library that simplifies the creation of Beautifull Websites/webapps.
+
+## ISLAMU Solutions
+
+- [Explore](https://github.com/islamu-ngo/explore): Local & Digital Islamic Event Explorer
+- [Identity](https://github.com/islamu-ngo/identity): Centralized Authentication for ISLAMU Solutions
 
 ## Contact
 
