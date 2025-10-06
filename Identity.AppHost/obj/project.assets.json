@@ -13,7 +13,7 @@
           "buildMultiTargeting/Aspire.Dashboard.Sdk.win-x64.targets": {}
         }
       },
-      "Aspire.Hosting/9.5.0": {
+      "Aspire.Hosting/9.5.1": {
         "type": "package",
         "dependencies": {
           "AspNetCore.HealthChecks.Uris": "9.0.0",
@@ -137,6 +137,45 @@
         "buildMultiTargeting": {
           "buildMultiTargeting/Aspire.Hosting.AppHost.props": {},
           "buildMultiTargeting/Aspire.Hosting.AppHost.targets": {}
+        }
+      },
+      "Aspire.Hosting.Keycloak/9.5.1-preview.1.25502.11": {
+        "type": "package",
+        "dependencies": {
+          "AspNetCore.HealthChecks.Uris": "9.0.0",
+          "Aspire.Hosting": "9.5.1",
+          "Google.Protobuf": "3.32.0",
+          "Grpc.AspNetCore": "2.71.0",
+          "Grpc.Net.ClientFactory": "2.71.0",
+          "Grpc.Tools": "2.72.0",
+          "Humanizer.Core": "2.14.1",
+          "JsonPatch.Net": "3.3.0",
+          "KubernetesClient": "17.0.14",
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "8.0.2",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Diagnostics.HealthChecks": "8.0.20",
+          "Microsoft.Extensions.Hosting": "8.0.1",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.1",
+          "Microsoft.Extensions.Http": "8.0.1",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.3",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "Microsoft.Extensions.Primitives": "8.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "Polly.Core": "8.6.3",
+          "Semver": "3.0.0",
+          "StreamJsonRpc": "2.22.11",
+          "System.IO.Hashing": "9.0.8"
+        },
+        "compile": {
+          "lib/net8.0/Aspire.Hosting.Keycloak.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Aspire.Hosting.Keycloak.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Aspire.Hosting.Orchestration.win-x64/9.5.0": {
@@ -497,6 +536,18 @@
           "lib/net6.0/Humanizer.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "Infisical.Sdk/3.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Polly.Extensions.Http": "3.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Infisical.Sdk.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Infisical.Sdk.dll": {}
         }
       },
       "Json.More.Net/2.1.0": {
@@ -1407,6 +1458,19 @@
           }
         }
       },
+      "Polly/7.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Polly.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Polly.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Polly.Core/8.6.3": {
         "type": "package",
         "compile": {
@@ -1417,6 +1481,22 @@
         "runtime": {
           "lib/net8.0/Polly.Core.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Polly.Extensions.Http/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Polly": "7.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Polly.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Polly.Extensions.Http.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -1738,17 +1818,17 @@
         "tools/zh-Hant/Aspire.Dashboard.resources.dll"
       ]
     },
-    "Aspire.Hosting/9.5.0": {
-      "sha512": "Gp+fpt4yXxQpcp+s5Jx9YwMbk1WR8QA+5CvPod4Npf2Ot4i5K0cQz1S2e1QKXl0uC/P2ZfEysNl7YoNxIWlZmw==",
+    "Aspire.Hosting/9.5.1": {
+      "sha512": "il7frwManbUV/ZnQXkgcYxULO/Nct0C3bGHuNFDxBroWE5Q9FShqcARfmLDHJvKDsiN1+SLc67ySpKY+rQrpzg==",
       "type": "package",
-      "path": "aspire.hosting/9.5.0",
+      "path": "aspire.hosting/9.5.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "README.md",
         "THIRD-PARTY-NOTICES.TXT",
-        "aspire.hosting.9.5.0.nupkg.sha512",
+        "aspire.hosting.9.5.1.nupkg.sha512",
         "aspire.hosting.nuspec",
         "lib/net8.0/Aspire.Hosting.dll",
         "lib/net8.0/Aspire.Hosting.xml",
@@ -1789,6 +1869,22 @@
         "lib/net8.0/Aspire.Hosting.AppHost.xml",
         "lib/net9.0/Aspire.Hosting.AppHost.dll",
         "lib/net9.0/Aspire.Hosting.AppHost.xml"
+      ]
+    },
+    "Aspire.Hosting.Keycloak/9.5.1-preview.1.25502.11": {
+      "sha512": "r8KtmNZa1WUrgYEQrBF5NWUK+i4g0Lm71KIpUlucJeOwMqw4Erd8EYxkjaDLTi7PnyPJ8QsF+xNHbu1DplIj4A==",
+      "type": "package",
+      "path": "aspire.hosting.keycloak/9.5.1-preview.1.25502.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "README.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "aspire.hosting.keycloak.9.5.1-preview.1.25502.11.nupkg.sha512",
+        "aspire.hosting.keycloak.nuspec",
+        "lib/net8.0/Aspire.Hosting.Keycloak.dll",
+        "lib/net8.0/Aspire.Hosting.Keycloak.xml"
       ]
     },
     "Aspire.Hosting.Orchestration.win-x64/9.5.0": {
@@ -2214,6 +2310,25 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "Infisical.Sdk/3.0.3": {
+      "sha512": "Gccdw7xvG7pNQbcxDT5oWAUQZpYN7vPv/o9pncrFdPtiMWv7jFbP5yHr83ZkxRVJhbNws2hm0zYPzmAIJI+Akw==",
+      "type": "package",
+      "path": "infisical.sdk/3.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "infisical.png",
+        "infisical.sdk.3.0.3.nupkg.sha512",
+        "infisical.sdk.nuspec",
+        "lib/net6.0/Infisical.Sdk.dll",
+        "lib/net7.0/Infisical.Sdk.dll",
+        "lib/net8.0/Infisical.Sdk.dll",
+        "lib/netstandard2.0/Infisical.Sdk.dll",
+        "lib/netstandard2.1/Infisical.Sdk.dll"
       ]
     },
     "Json.More.Net/2.1.0": {
@@ -3473,6 +3588,21 @@
         "pipelines.sockets.unofficial.nuspec"
       ]
     },
+    "Polly/7.1.0": {
+      "sha512": "mpQsvlEn4ipgICh5CGyVLPV93RFVzOrBG7wPZfzY8gExh7XgWQn0GCDY9nudbUEJ12UiGPP9i4+CohghBvzhmg==",
+      "type": "package",
+      "path": "polly/7.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard1.1/Polly.dll",
+        "lib/netstandard1.1/Polly.xml",
+        "lib/netstandard2.0/Polly.dll",
+        "lib/netstandard2.0/Polly.xml",
+        "polly.7.1.0.nupkg.sha512",
+        "polly.nuspec"
+      ]
+    },
     "Polly.Core/8.6.3": {
       "sha512": "xRlcE+1FidqIfZ7zxBT6klSblJ/7MAJq1x5yvYoLnwNhs8Xc2gp3Srf8wHG2NpFxVBqrldc3svhkMPJjSzTmzw==",
       "type": "package",
@@ -3500,6 +3630,21 @@
         "package-readme.md",
         "polly.core.8.6.3.nupkg.sha512",
         "polly.core.nuspec"
+      ]
+    },
+    "Polly.Extensions.Http/3.0.0": {
+      "sha512": "drrG+hB3pYFY7w1c3BD+lSGYvH2oIclH8GRSehgfyP5kjnFnHKQuuBhuHLv+PWyFuaTDyk/vfRpnxOzd11+J8g==",
+      "type": "package",
+      "path": "polly.extensions.http/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard1.1/Polly.Extensions.Http.dll",
+        "lib/netstandard1.1/Polly.Extensions.Http.xml",
+        "lib/netstandard2.0/Polly.Extensions.Http.dll",
+        "lib/netstandard2.0/Polly.Extensions.Http.xml",
+        "polly.extensions.http.3.0.0.nupkg.sha512",
+        "polly.extensions.http.nuspec"
       ]
     },
     "RabbitMQ.Client/7.1.2": {
@@ -3759,10 +3904,12 @@
     "net10.0": [
       "Aspire.Dashboard.Sdk.win-x64 >= 9.5.0",
       "Aspire.Hosting.AppHost >= 9.5.0",
+      "Aspire.Hosting.Keycloak >= 9.5.1-preview.1.25502.11",
       "Aspire.Hosting.Orchestration.win-x64 >= 9.5.0",
       "Aspire.Hosting.PostgreSQL >= 9.5.0",
       "Aspire.Hosting.RabbitMQ >= 9.5.0",
       "Aspire.Hosting.Redis >= 9.5.0",
+      "Infisical.Sdk >= 3.0.3",
       "SonarAnalyzer.CSharp >= 10.15.0.120848"
     ]
   },
@@ -3826,6 +3973,10 @@
             "target": "Package",
             "version": "[9.5.0, )"
           },
+          "Aspire.Hosting.Keycloak": {
+            "target": "Package",
+            "version": "[9.5.1-preview.1.25502.11, )"
+          },
           "Aspire.Hosting.Orchestration.win-x64": {
             "target": "Package",
             "version": "[9.5.0, )",
@@ -3842,6 +3993,10 @@
           "Aspire.Hosting.Redis": {
             "target": "Package",
             "version": "[9.5.0, )"
+          },
+          "Infisical.Sdk": {
+            "target": "Package",
+            "version": "[3.0.3, )"
           },
           "SonarAnalyzer.CSharp": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

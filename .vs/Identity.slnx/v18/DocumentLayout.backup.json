@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{E4E90CB9-5A45-493F-9F94-8A9A4C31B102}|Identity.AppHost\\Identity.AppHost.csproj|c:\\islamu\\github\\identity\\identity.apphost\\apphost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E4E90CB9-5A45-493F-9F94-8A9A4C31B102}|Identity.AppHost\\Identity.AppHost.csproj|solutionrelative:identity.apphost\\apphost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{099B16E2-B029-770B-F661-D2EC1AF56156}|Identity.API\\Identity.API.csproj|c:\\islamu\\github\\identity\\identity.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{099B16E2-B029-770B-F661-D2EC1AF56156}|Identity.API\\Identity.API.csproj|solutionrelative:identity.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,8 +21,17 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\ISLAMU\\GitHub\\Identity\\Identity.API\\Program.cs",
+              "RelativeDocumentMoniker": "Identity.API\\Program.cs",
+              "ToolTip": "C:\\ISLAMU\\GitHub\\Identity\\Identity.API\\Program.cs",
+              "RelativeToolTip": "Identity.API\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T13:25:37.806Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -28,20 +41,10 @@
               "RelativeDocumentMoniker": "Identity.AppHost\\AppHost.cs",
               "ToolTip": "C:\\ISLAMU\\GitHub\\Identity\\Identity.AppHost\\AppHost.cs",
               "RelativeToolTip": "Identity.AppHost\\AppHost.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAwwEMAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAL8AAAAAAAAAAIAwwM8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-30T12:35:21.26Z",
               "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

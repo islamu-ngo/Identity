@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Q4pE1PIPEQk=",
+  "dgSpecHash": "oXkZIoYk0zU=",
   "success": true,
   "projectFilePath": "C:\\ISLAMU\\GitHub\\Identity\\Identity.API\\Identity.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\AM5\\.nuget\\packages\\aspire.keycloak.authentication\\9.5.1-preview.1.25502.11\\aspire.keycloak.authentication.9.5.1-preview.1.25502.11.nupkg.sha512",
+    "C:\\Users\\AM5\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\10.0.0-rc.1.25451.107\\microsoft.aspnetcore.authentication.jwtbearer.10.0.0-rc.1.25451.107.nupkg.sha512",
+    "C:\\Users\\AM5\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\8.0.20\\microsoft.aspnetcore.authentication.openidconnect.8.0.20.nupkg.sha512",
     "C:\\Users\\AM5\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.0-rc.1.25451.107\\microsoft.aspnetcore.openapi.10.0.0-rc.1.25451.107.nupkg.sha512",
     "C:\\Users\\AM5\\.nuget\\packages\\microsoft.extensions.ambientmetadata.application\\9.7.0\\microsoft.extensions.ambientmetadata.application.9.7.0.nupkg.sha512",
     "C:\\Users\\AM5\\.nuget\\packages\\microsoft.extensions.compliance.abstractions\\9.7.0\\microsoft.extensions.compliance.abstractions.9.7.0.nupkg.sha512",
@@ -16,6 +19,12 @@
     "C:\\Users\\AM5\\.nuget\\packages\\microsoft.extensions.servicediscovery.abstractions\\9.4.0\\microsoft.extensions.servicediscovery.abstractions.9.4.0.nupkg.sha512",
     "C:\\Users\\AM5\\.nuget\\packages\\microsoft.extensions.telemetry\\9.7.0\\microsoft.extensions.telemetry.9.7.0.nupkg.sha512",
     "C:\\Users\\AM5\\.nuget\\packages\\microsoft.extensions.telemetry.abstractions\\9.7.0\\microsoft.extensions.telemetry.abstractions.9.7.0.nupkg.sha512",
+    "C:\\Users\\AM5\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.14.0\\microsoft.identitymodel.abstractions.8.14.0.nupkg.sha512",
+    "C:\\Users\\AM5\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.0.1\\microsoft.identitymodel.jsonwebtokens.8.0.1.nupkg.sha512",
+    "C:\\Users\\AM5\\.nuget\\packages\\microsoft.identitymodel.logging\\8.14.0\\microsoft.identitymodel.logging.8.14.0.nupkg.sha512",
+    "C:\\Users\\AM5\\.nuget\\packages\\microsoft.identitymodel.protocols\\8.0.1\\microsoft.identitymodel.protocols.8.0.1.nupkg.sha512",
+    "C:\\Users\\AM5\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\8.0.1\\microsoft.identitymodel.protocols.openidconnect.8.0.1.nupkg.sha512",
+    "C:\\Users\\AM5\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.14.0\\microsoft.identitymodel.tokens.8.14.0.nupkg.sha512",
     "C:\\Users\\AM5\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512",
     "C:\\Users\\AM5\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.23.0\\microsoft.visualstudio.azure.containers.tools.targets.1.23.0.nupkg.sha512",
     "C:\\Users\\AM5\\.nuget\\packages\\opentelemetry\\1.12.0\\opentelemetry.1.12.0.nupkg.sha512",
@@ -28,7 +37,8 @@
     "C:\\Users\\AM5\\.nuget\\packages\\opentelemetry.instrumentation.runtime\\1.12.0\\opentelemetry.instrumentation.runtime.1.12.0.nupkg.sha512",
     "C:\\Users\\AM5\\.nuget\\packages\\polly.core\\8.4.2\\polly.core.8.4.2.nupkg.sha512",
     "C:\\Users\\AM5\\.nuget\\packages\\polly.extensions\\8.4.2\\polly.extensions.8.4.2.nupkg.sha512",
-    "C:\\Users\\AM5\\.nuget\\packages\\polly.ratelimiting\\8.4.2\\polly.ratelimiting.8.4.2.nupkg.sha512"
+    "C:\\Users\\AM5\\.nuget\\packages\\polly.ratelimiting\\8.4.2\\polly.ratelimiting.8.4.2.nupkg.sha512",
+    "C:\\Users\\AM5\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.0.1\\system.identitymodel.tokens.jwt.8.0.1.nupkg.sha512"
   ],
   "logs": []
 }

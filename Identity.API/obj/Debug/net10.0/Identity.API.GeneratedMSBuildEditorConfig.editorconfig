@@ -21,3 +21,7 @@ build_property.MSBuildProjectDirectory = C:\ISLAMU\GitHub\Identity\Identity.API
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/AM5/AppData/Roaming/SonarLint for Visual Studio/.global/csharp/SonarLint.xml]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 

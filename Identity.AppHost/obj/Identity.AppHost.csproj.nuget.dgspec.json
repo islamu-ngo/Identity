@@ -60,6 +60,10 @@
               "target": "Package",
               "version": "[9.5.0, )"
             },
+            "Aspire.Hosting.Keycloak": {
+              "target": "Package",
+              "version": "[9.5.1-preview.1.25502.11, )"
+            },
             "Aspire.Hosting.Orchestration.win-x64": {
               "target": "Package",
               "version": "[9.5.0, )",
@@ -76,6 +80,10 @@
             "Aspire.Hosting.Redis": {
               "target": "Package",
               "version": "[9.5.0, )"
+            },
+            "Infisical.Sdk": {
+              "target": "Package",
+              "version": "[3.0.3, )"
             },
             "SonarAnalyzer.CSharp": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
